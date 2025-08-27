@@ -11,6 +11,7 @@ import { map, shareReplay } from 'rxjs/operators';
 import { ComponentDashboardComponent } from '../component-dashboard/component-dashboard.component';
 import { ComponentTreeComponent } from '../component-tree/component-tree.component';
 import { ComponentDragNdropComponent } from '../component-drag-ndrop/component-drag-ndrop.component';
+import { ThemeToggleComponent } from '../components/theme-toggle/theme-toggle.component';
 
 @Component({
   selector: 'app-component-navigation',
@@ -26,6 +27,7 @@ import { ComponentDragNdropComponent } from '../component-drag-ndrop/component-d
     ComponentDashboardComponent,
     ComponentTreeComponent,
     ComponentDragNdropComponent,
+    ThemeToggleComponent,
   ],
 })
 export class ComponentNavigationComponent {
